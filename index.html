@@ -37,7 +37,76 @@
         </li>
     </ul>
      
-    
+    <br>
+
+    <h1>Форма</h1>
+    <form action="/" method="POST">
+    <label>
+        ФИО:
+        <br>
+        <input name="fio" value="введите фио">
+    </label>
+    <br>
+    <label>
+        Телефон:
+        <br>
+        <input name="telephone" value="8-900-000-00-00" type="tel">
+    </label>
+    <br>
+    <label>
+        Email:
+        <br>
+        <input name="email" type="type-email" placeholder="введите вашу почту">
+    </label>
+    <br>
+    <label>
+        Дата рождения:
+        <br>
+        <input name="date" value="2000-01-01" type="date">
+    </label>
+    <br>
+    Пол:
+    <br>
+    <label>
+        <input type="radio" checked="checked" name="radio1" value="Значение1">
+        Мужской
+    </label>
+    <label>
+        <input type="radio" name="radio1" value="Значение2">
+        Женский
+    </label>
+    <br>
+    <label>
+        Любимый язык программирования:
+        <br>
+        <select name="" multiple="multiple">
+            <option value="Значение 1" selected="selected">Pascal</option>
+            <option value="Значение 2" selected="selected">C</option>
+            <option value="Значение 3" selected="selected">C++</option>
+            <option value="Значение 4" selected="selected">JavaScript</option>
+            <option value="Значение 5" selected="selected">PHP</option>
+            <option value="Значение 6" selected="selected">Python</option>
+            <option value="Значение 7" selected="selected">Java</option>
+            <option value="Значение 8" selected="selected">Haskel</option>
+            <option value="Значение 9" selected="selected">Clojure</option>
+            <option value="Значение 10" selected="selected">Prolog</option>
+            <option value="Значение 11" selected="selected">Scala</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        Биография: 
+        <br>
+        <textarea name="bio"></textarea>
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" checked="checked" name="check1">
+        С контрактом ознакомлен(-а):
+    </label>
+    <br>
+    <input type="submit" value="Отправить">
+    </form>
 
  
    
