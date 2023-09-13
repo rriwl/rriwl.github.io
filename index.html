@@ -37,20 +37,28 @@
         </li>
         <li>
             <a href="../vnutr.html">Относительная на страницу в каталоге уровнем выше текущего</a>
+        </li>
+        <li>
             <a href="../../vnutr.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a>
         </li>
         <li>
-        <p>
-            Контекстная 
-            <a href="https://example.com"><i>ссылка</i></a>
-            в тексте абзаца
-        </p>
+            <p>
+                Контекстная 
+                <a href="https://example.com"><i>ссылка</i></a>
+                в тексте абзаца
+            </p>
         </li>
+        <li>
+            <a href="https://example.com" rel="notfollow">
+                Запрещенная для индексации поисковиками
+            </a>
+        </li>
+        <li>
+            <a href="ftp://user1:1000@example.com/file.html">Ссылка на файл на сервере FTP c авторизацией</a>
+        </li> 
     </ul>
-     
-    <br>
 
-    <h1>Форма</h1>
+    <h2>Форма</h2>
     <form action="/" method="POST">
     <label>
         ФИО:
@@ -116,12 +124,7 @@
         С контрактом ознакомлен(-а):
     </label>
     <br>
-    <input type="submit" value="Отправить">
+    <input type="submit" value="Сохранить">
     </form>
-
- 
-   
-
-    
 </body>
 </html>
